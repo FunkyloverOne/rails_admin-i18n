@@ -2,128 +2,154 @@ uk-UA:
   admin:
     actions:
       bulk_delete:
-        breadcrumb:
-        bulk_link:
-        menu:
-        title:
+        breadcrumb: "Видалити вибрані"
+        bulk_link: "Видалити вибрані %{model_label_plural}"
+        menu: "Видалити вибрані"
+        title: "Видалити %{model_label_plural}"
       dashboard:
-        breadcrumb:
-        menu:
-        title:
+        breadcrumb: "Панель керування"
+        menu: "Панель керування"
+        title: "Панель адміністрування"
       delete:
-        breadcrumb:
-        done:
-        link:
-        menu:
-        title:
+        breadcrumb: "Видалити"
+        done: "видалено"
+        link: "Видалити '%{object_label}'"
+        menu: "Видалити"
+        title: "Видалити %{model_label} '%{object_label}'"
       edit:
-        breadcrumb:
-        done:
-        link:
-        menu:
-        title:
+        breadcrumb: "Редагувати"
+        done: "оновлено"
+        link: "Редагувати %{model_label}"
+        menu: "Редагувати"
+        title: "Редагувати %{model_label} '%{object_label}'"
       export:
-        breadcrumb:
-        bulk_link:
-        done:
-        link:
-        menu:
-        title:
+        breadcrumb: "Експортувати"
+        bulk_link: "Експортувати вибрані %{model_label_plural}"
+        done: "експортовано"
+        link: "Експортувати знайдені %{model_label_plural}"
+        menu: "Експортувати"
+        title: "Експортувати %{model_label_plural}"
       history_index:
-        breadcrumb:
-        menu:
-        title:
+        breadcrumb: "Історія"
+        menu: "Історія"
+        title: "Історія для %{model_label_plural}"
       history_show:
-        breadcrumb:
-        menu:
-        title:
+        breadcrumb: "Історія"
+        menu: "Історія "
+        title: "Історія для %{model_label} '%{object_label}'"
       index:
-        breadcrumb:
-        menu:
-        title:
+        breadcrumb: "%{model_label_plural}"
+        menu: "Список"
+        title: "Список %{model_label_plural}"
       new:
-        breadcrumb:
-        done:
-        link:
-        menu:
-        title:
+        breadcrumb: "Новий"
+        done: "створено"
+        link: "Додати новий %{model_label}"
+        menu: "Додати новий"
+        title: "Новий %{model_label}"
       show:
-        breadcrumb:
-        menu:
-        title:
+        breadcrumb: "%{object_label}"
+        menu: "Показати"
+        title: "Подробиці для %{model_label} '%{object_label}'"
       show_in_app:
-        menu:
+        menu: "Показати в додатку"
     export:
-      click_to_reverse_selection:
-      confirmation:
+      click_to_reverse_selection: "Натисніть для зворотного виділення"
+      confirmation: "Експортувати до %{name}"
       csv:
-        col_sep:
-        col_sep_help:
-        default_col_sep:
-        encoding_to:
-        encoding_to_help:
-        header_for_association_methods:
-        header_for_root_methods:
-        skip_header:
-        skip_header_help:
-      display:
-      empty_value_for_associated_objects:
-      fields_from:
-      fields_from_associated:
-      options_for:
-      select:
+        col_sep: "Роздільник стовпців"
+        col_sep_help: "Залиште порожнім для вибору за замовчуванням ('%{value}')"
+        default_col_sep: ","
+        encoding_to: "Кодувати в"
+        encoding_to_help: "Виберіть вихідне кодування. Залиште поле порожнім щоб залишити поточне кодування незмінним: (%{name})"
+        header_for_association_methods: "%{name} [%{association}]"
+        header_for_root_methods: "%{name}"
+        skip_header: "Без заголовку"
+        skip_header_help: "Не виводити заголовок (без опису полів)"
+      display: "Показати %{name}: %{type}"
+      empty_value_for_associated_objects: "<порожньо>"
+      fields_from: "Поля з %{name}"
+      fields_from_associated: "Поля із зв'язаного %{name}"
+      options_for: "Опції для %{name}"
+      select: "Виберіть поля для експорту"
+      select_all_fields: "Вибрати всі поля"
     flash:
-      error:
-      model_not_found:
-      noaction:
-      object_not_found:
-      successful:
+      error: "%{name} не вдалось %{action}"
+      model_not_found: "Модель '%{model}' не знайдена"
+      noaction: "Жодних дій не було вибрано"
+      object_not_found: "%{model} з id '%{id}' не знайдено"
+      successful: "%{name} успішно %{action}"
     form:
-      all_of_the_following_related_items_will_be_deleted:
-      are_you_sure_you_want_to_delete_the_object:
-      basic_info:
-      bulk_delete:
-      cancel:
-      char_length_of:
-      char_length_up_to:
-      confirmation:
-      new_model:
-      one_char:
-      optional:
-      required:
-      save:
-      save_and_add_another:
-      save_and_edit:
-    misc:
-      add_filter:
-      add_new:
-      ago:
-      bulk_menu_title:
-      chose_all:
-      chosen:
-      clear_all:
-      down:
-      filter:
-      filter_date_format:
-      log_out:
-      navigation:
-      refresh:
-      remove:
-      search:
-      show_all:
-      up:
-    table_headers:
-      changes:
-      created_at:
-      item:
-      last_used:
-      message:
-      model_name:
-      records:
-      username:
+      all_of_the_following_related_items_will_be_deleted: "? Наступні дочірні об'єкти можуть бути видалені чи осиротілі:"
+      are_you_sure_you_want_to_delete_the_object: "Ви впевнені, що хочете видалити цей %{model_name}"
+      basic_info: "Базова інформація"
+      bulk_delete: "Наступні об'єкти будуть видалені, що може призвести до видалення чи осиротіння дочірніх залежностей:"
+      cancel: "Скасувати"
+      char_length_of: "довжина"
+      char_length_up_to: "довжина до"
+      confirmation: "Так, я впевнений(а)"
+      new_model: "%{name} (новий)"
+      one_char: "символ"
+      optional: "Необов'язкове поле"
+      required: "Обов'язкове поле"
+      save: "Зберегти"
+      save_and_add_another: "Зберегти і додати ще"
+      save_and_edit: "Зберегти і редагувати"
     home:
-      name:
+      name: "Домашня сторінка"
+    js:
+      between_and_: "Між ... і ..."
+      contains: "Містить"
+      date: "Дата ..."
+      ends_with: "Закінчується на"
+      'false': false
+      is_blank: "Є порожнім"
+      is_exactly: "Є в точності"
+      is_present: "Є присутнім"
+      last_week: "Минулий тиждень"
+      number: "Число ..."
+      starts_with: "Починається з"
+      this_week: "Цей тиждень"
+      today: "Сьогодні"
+      'true': true
+      yesterday: "Вчора"
+    loading: "Завантаження..."
+    misc:
+      add_filter: "Додати фільтр"
+      add_new: "Додати новий"
+      ago: "тому"
+      bulk_menu_title: "Вибрані пункти"
+      chose_all: "Вибрати всі"
+      chosen: "Вибраний %{name}"
+      clear_all: "Очистити всі"
+      down: "Вниз"
+      filter: "Фільтр"
+      filter_date_format: "мм/дд/рр"
+      log_out: "Вийти"
+      navigation: "Навігація"
+      navigation_static_label: "Посилання"
+      refresh: "Оновити"
+      remove: "Видалити"
+      search: "Пошук"
+      show_all: "Показати всі"
+      up: "Вверх"
     pagination:
-      next:
-      previous:
-      truncate:
+      next: "Наступні »"
+      previous: "&laquo; Попередні"
+      truncate: "..."
+    table_headers:
+      changes: "Зміни"
+      created_at: "Дата/Час"
+      item: "Об’єкт"
+      last_used: "Останні використані"
+      message: "Повідомлення"
+      model_name: "Назва моделі"
+      records: "Записи"
+      username: "Користувач"
+  home:
+    name: "Домашня сторінка"
+  views:
+    pagination:
+      next: "Наступні &raquo;"
+      previous: "&laquo; Попередні"
+      truncate: "..."
